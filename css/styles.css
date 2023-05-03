@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5E8BE;
+}
+
+@font-face {
+    font-family: camilo;
+    src: url(/typografic/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: juan;
+    src: url(/typografic/Montserrat-Light.ttf);
+}
+
+.navbar-brand {
+    font-family:camilo ;
+}
+
+.offcanvas-body {
+    font-family:camilo ;
+}
+
+.offcanvas-header {
+    font-family:camilo ;
+}
+
+.caja1 {
+    font-family:camilo ;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 60px;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja {
+    background-color: #DBE2C5;
+    width: 450px;
+    height: 695px;
+    margin: 20px;
+    border-radius: 450px 450px 400px 400px;
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-hesitate both infinite alternate;
+}
+
+.caja1 {
+    background-color: #DBE2C5;
+    width: 1000px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family:camilo ;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja2 {
+    background-color: none;
+    width: 1000px;
+    height: none;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja3 {
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:camilo ;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+}
+
+
+h1 { 
+    animation:slide-right 0.8s linear both infinite alternate;
+    position: relative;
+}
+
+.slide-right{
+    animation:slide-right 0.4s linear both;
+}
+
+@keyframes slide-right{
+    0%{transform:translateX(0)
+    }
+    100%{transform:translateX(100px)
+    }
+}
+
+
+@keyframes circle-in-hesitate {
+    0% {
+      clip-path: circle(0%);
+    }
+    40% {
+      clip-path: circle(40%);
+    }
+    100% {
+      clip-path: circle(125%);
+    }
+  }
+
+.caja4 {
+    background-color: #DBE2C5;
+    width: 700px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+
+.row5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.row6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:camilo ;
+}
+
+.caja5{
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.caja6{
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+}
+
+.caja7{
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+}
+
+.card{
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
+
+.row9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+}
+
+.caja8{
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.caja9{
+    background-color: #DBE2C5;
+    width: 600px;
+    height: 120px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+}
+
+.caja10{
+    background-color: #DBE2C5;
+    width: 700px;
+    height: 130px;
+    margin: 15px;
+    border-radius: 300px;
+}
+
+.row11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:camilo ;
+}
+
+
+
+  
