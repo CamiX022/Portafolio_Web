@@ -10,12 +10,12 @@ body {
 
 @font-face {
     font-family: camilo;
-    src: url(/typografic/Montserrat-Italic.ttf);
+    src: url(../typografic/Montserrat-Italic.ttf);
 }
 
 @font-face {
     font-family: juan;
-    src: url(/typografic/Montserrat-Light.ttf);
+    src: url(../typografic/Montserrat-Light.ttf);
 }
 
 .navbar-brand {
